@@ -41,6 +41,7 @@ export type Etudiant = {
   annee: Annee;
   groupe: string | null;
   alternant?: boolean;
+  path_photo?: string;
 
 };
 
