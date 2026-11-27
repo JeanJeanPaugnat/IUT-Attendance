@@ -84,7 +84,7 @@ export function SelectionAbsences({
       >
         {chargement
           ? "Enregistrement..."
-          : `Valider les présences (${eleves.length - absents.length} présents)`}
+          : `Valider les absences (${absents.length} absent${absents.length > 1 ? "s" : ""})`}
       </Button>
     </section>
   );
